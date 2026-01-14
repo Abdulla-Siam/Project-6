@@ -89,4 +89,64 @@ nav ul li:hover{
     font-size: 32px;
 }
 
+/* Music Section */
 
+.my_music{
+    padding-top: 50px;
+    background-color: #281154;
+}
+
+.my_music .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.i-image{
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+
+.btn{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    border-style: none;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.7;
+}
+
+/* Music About Part */
+
+.about-music{
+    padding-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-two{
+    background-color: #270082;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border-style: none;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-two:hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.7;
+}
