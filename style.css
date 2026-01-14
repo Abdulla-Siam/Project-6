@@ -16,6 +16,10 @@ html, body{
 
 header{
     background-color: #270082;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .container{
@@ -59,4 +63,30 @@ nav ul li:hover{
     border-bottom: 2px solid;
     transition: 0.2s ease-in-out;
 }
+
+/* Hero Section */
+
+.hero{
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    color: white;
+    text-align: center;
+    place-items: center;
+    display: grid;
+}
+
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero h1{
+    font-size: 96px;
+}
+
+.hero h3{
+    font-size: 32px;
+}
+
 
