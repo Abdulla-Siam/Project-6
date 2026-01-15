@@ -10,6 +10,11 @@ html, body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin: 50px;
 }
 
 /* Header Section */
@@ -196,3 +201,33 @@ nav ul li:hover{
     border-bottom: 1px solid gray;
 }
 
+.gift{
+    scroll-margin: 120px;
+}
+
+/* Footer Section */
+
+.upper{
+    background-color: #1b0058;
+    padding: 20px;
+}
+
+.upper .container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.upper h4{
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.lower{
+    background-color: #270082;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    color: white;
+}
